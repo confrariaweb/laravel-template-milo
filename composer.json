@@ -1,0 +1,34 @@
+{
+    "name": "confrariaweb/laravel-template-milo",
+    "version": "dev-master",
+    "description": "Laravel template package Milo",
+    "keywords": [
+        "template",
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Rafael Zingano",
+            "email": "confrariaweb@gmail.com"
+        }
+    ],
+    "require": {
+        "confrariaweb/laravel-template": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ConfrariaWeb\\TemplateMilo\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConfrariaWeb\\TemplateMilo\\Providers\\TemplateMiloServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
